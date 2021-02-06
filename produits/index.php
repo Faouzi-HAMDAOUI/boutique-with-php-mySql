@@ -83,7 +83,7 @@ $nb_prods  = 0;
             if ($nb_prods % 6 == 0) {
               for ($h = 1; $h <= ($nb_prods / 6); $h++) {
             ?>
-                <li class="page-item active" aria-current="page">
+                <li class="page-item" aria-current="page">
                   <span class="page-link">
                     <a href="index.php?page=<?php echo (($h - 1) * 6) ?>">Page 0<?php echo  $h; ?>
                     </a>

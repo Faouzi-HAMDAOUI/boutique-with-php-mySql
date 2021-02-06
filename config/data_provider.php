@@ -1,6 +1,6 @@
 <?php
 
-require(dirname(__FILE__) . './index.php');
+require('index.php');
 
 class DataProvider {
 

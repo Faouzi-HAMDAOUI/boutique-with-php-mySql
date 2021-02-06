@@ -1,5 +1,4 @@
 $(document).ready(function(e) {
-
     // Ajouter un produit
     $(".newProduct").on("submit", function(e) {
         e.preventDefault();
@@ -12,6 +11,10 @@ $(document).ready(function(e) {
             processData: false,
             success: function(data) {
                 $("#resultSendProduct").html(data).slideDown();
+                $("#name").val("");
+                $("#prix").val("");
+                $("#description").val("");
+                $("#img_prod").val("");
             },
             error: function() {
                 $("#resultSendProduct").html(data).slideDown();

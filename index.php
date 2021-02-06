@@ -57,7 +57,7 @@ $limitBoutiques = $boutique->getLimitBoutiques(); // limié à 6
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-              
+
                 <a href="login/login.php" class="btn btn-outline-success my-2 my-sm-0" type="submit">Connexion</a>
               </form>
             </div>
@@ -78,7 +78,7 @@ $limitBoutiques = $boutique->getLimitBoutiques(); // limié à 6
 
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img width="700" height="450" src="images/img_bout4.png" class="d-block w-100" alt="...">
+                <img width="700" height="450" src="images/Boutique06.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Bienvenue sur votre boutique en ligne</h5>
                   <p>Faites vous visites on choisons une boutique! faites vous choix c'est gratuits !</p>
